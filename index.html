@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -84,8 +84,8 @@
     <div class="topbar">
       <div class="badge">Disponible à l’acquisition</div>
       <div class="lang">
-        <button id="btn-fr" aria-pressed="true">FR</button>
-        <button id="btn-en" aria-pressed="false">EN</button>
+        <button id="btn-fr" aria-pressed="false">FR</button>
+        <button id="btn-en" aria-pressed="true">EN</button>
       </div>
     </div>
 
@@ -174,10 +174,12 @@
     <section class="card" style="margin-top:16px" data-fr>
       <h3>Documents / Briefs</h3>
       <div class="cta">
-        <a class="btn" target="_blank" rel="noopener" href="./Acquisition%20Brief%20CBPRcompliance-EN-202511.pdf">Open (EN) in browser</a>
-        <a class="btn" target="_blank" rel="noopener" href="./Acquisition%20Brief%20CBPRcompliance-202511.pdf">Ouvrir (FR) dans le navigateur</a>
-        <a class="btn" download href="./Acquisition%20Brief%20CBPRcompliance-EN-202511.pdf">Download (EN, PDF)</a>
-        <a class="btn" download href="./Acquisition%20Brief%20CBPRcompliance-202511.pdf">Télécharger (FR, PDF)</a>
+        <a class="btn" target="_blank" rel="noopener" href="./Acquisition%20Brief%20CBPRcompliance-202511.pdf">
+          👁️ Ouvrir (FR) dans le navigateur
+        </a>
+        <a class="btn primary" target="_blank" rel="noopener" href="./Acquisition%20Brief%20CBPRcompliance-202511.pdf" download="Acquisition-Brief-CBPRCompliance-FR-202511.pdf">
+          📥 Télécharger (FR, PDF)
+        </a>
       </div>
       <details>
         <summary class="chip">Aperçu rapide (PDF) — chargé à l’ouverture</summary>
@@ -257,7 +259,7 @@
       </a>
     </section>
 
-    <!-- ================= COMPLEMENTARY (EN) ================= -->
+    <!-- ================= COMPLEMENTARY EN ================= -->
     <section class="card" style="margin-top:16px" data-en hidden>
       <h3>Related asset (bundle option)</h3>
       <ul class="list">
@@ -272,10 +274,12 @@
     <section class="card" style="margin-top:16px" data-en hidden>
       <h3>Documents / Briefs</h3>
       <div class="cta">
-        <a class="btn" target="_blank" rel="noopener" href="./Acquisition%20Brief%20CBPRcompliance-EN-202511.pdf">Open (EN) in browser</a>
-        <a class="btn" target="_blank" rel="noopener" href="./Acquisition%20Brief%20CBPRcompliance-202511.pdf">Ouvrir (FR) dans le navigateur</a>
-        <a class="btn" download href="./Acquisition%20Brief%20CBPRcompliance-EN-202511.pdf">Download (EN, PDF)</a>
-        <a class="btn" download href="./Acquisition%20Brief%20CBPRcompliance-202511.pdf">Télécharger (FR, PDF)</a>
+        <a class="btn" target="_blank" rel="noopener" href="./Acquisition%20Brief%20CBPRcompliance-EN-202511.pdf">
+          👁️ Open (EN) in browser
+        </a>
+        <a class="btn primary" target="_blank" rel="noopener" href="./Acquisition%20Brief%20CBPRcompliance-EN-202511.pdf" download="Acquisition-Brief-CBPRCompliance-EN-202511.pdf">
+          📥 Download (EN, PDF)
+        </a>
       </div>
     </section>
 
@@ -297,7 +301,7 @@
     };
     frBtn.addEventListener('click', () => show('fr'));
     enBtn.addEventListener('click', () => show('en'));
-    show('fr');
+    show('en');
   </script>
 </body>
 </html>
